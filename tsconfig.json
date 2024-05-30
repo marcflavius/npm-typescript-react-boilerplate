@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true, // Enable declaration file generation
+        "declarationDir": "./types", // Output directory for declaration files
+        "outDir": "./dist"
+    },
+    "include": [
+        "src"
+    ]
+}
